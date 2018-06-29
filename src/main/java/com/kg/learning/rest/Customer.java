@@ -1,6 +1,7 @@
 package com.kg.learning.rest;
 
 public class Customer {
+	
 	private long id;
 	private String name;
 	private String email;
@@ -11,6 +12,7 @@ public class Customer {
 
 	public void setId(long id) {
 		this.id = id;
+		
 	}
 
 	public String getName() {
